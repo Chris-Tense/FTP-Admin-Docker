@@ -63,6 +63,7 @@ cd ftpcalamar
 # Docker Compose
 
 Crear un archivo llamado `docker-compose.yml`:
+
 services:
 
   ftpcalamar:
