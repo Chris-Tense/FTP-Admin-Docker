@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTP Calamar</title>
+    <!-- Vinculación correcta del archivo CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <div class="card">
+
+        👤 Usuario conectado:
+        <strong id="currentUser"></strong>
+
+        <button id="logoutBtn" type="button">
+            Salir
+        </button>
+
+    </div>
+
+    <header>
+        <div style="clear:both;"></div>
+        <h1>FTP Calamar</h1>
+    </header>
+
+    <hr>
+    <div id="quotaInfo"></div>
+    <h2>Mis Archivos</h2>
+
+    <input id="uploadFile" type="file">
+
+    <button id="uploadBtn">
+        Subir
+    </button>
+
+    <hr>
+
+    <button id="refreshBtn">
+        Actualizar
+    </button>
+
+    <div id="files"></div>
+
+    <script src="js/dashboard-cliente.js"></script>
+    <script src="js/files.js"></script>
+
+</body>
+
+</html>

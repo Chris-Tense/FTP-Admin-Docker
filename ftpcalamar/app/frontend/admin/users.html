@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+    <!-- Vinculación correcta del archivo CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<a href="/admin/dashboard.html"><button>Volver</button></a>
+
+<hr>
+
+<h1>Usuarios</h1>
+
+<form id="userForm">
+
+    <input
+        id="username"
+        type="text"
+        placeholder="Usuario"
+        required>
+
+    <br><br>
+
+    <input
+        id="password"
+        type="password"
+        placeholder="Contraseña"
+        required>
+
+    <br><br>
+
+    <button type="submit">
+        Crear Usuario
+    </button>
+
+</form>
+
+<hr>
+
+<div id="users"></div>
+
+<script src="js/users.js"></script>
+
+</body>
+</html>
