@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTP Calamar</title>
+    <!-- Vinculación correcta del archivo CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <!-- Toda la estructura visual debe ir exclusivamente dentro de body -->
+    <div class="card">
+        👤 Usuario conectado:
+        <strong id="currentUser"></strong>
+        <button id="logoutBtn" type="button">Salir</button>
+    </div>
+
+    <header>
+        <div style="clear:both;"></div>
+        <h1>Pagina Principal FTP Calamar</h1>
+    </header>
+
+    <hr>
+
+    <!-- Navegación principal -->
+    <h2>Datos de los Servicios Activos</h2>
+    
+    <nav>
+        <a href="/admin/logs.html"><button>Logs</button></a>
+    </nav>
+
+    <hr>
+
+    <h2>Estado de Servicios</h2>
+
+    <ul>
+        <li>Portal Web: ✅ Activo</li>
+        <li>SFTP: ✅ Activo</li>
+        <li>FTPS: ✅ Activo</li>
+        <li>Nginx: ✅ Activo</li>
+    </ul>
+
+    <hr>
+
+    <h2>Acciones rápidas</h2>
+
+    <a href="/admin/users.html"><button>Crear Usuario</button></a>
+    <a href="/admin/files.html"><button>Subir Archivos</button></a>
+    <a href="/admin/files-admin.html"><button>Archivos de Usuarios</button></a>
+   
+    <script src="js/dashboard.js"></script>
+
+</body>
+</html>
